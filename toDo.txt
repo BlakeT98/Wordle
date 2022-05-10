@@ -1,0 +1,18 @@
+Manual solver:
+create charArray[#ofWords][5] of wordle list
+input first guess (give sugestions)
+enter first guess into wordle.com
+input correct placement, correct letter, and incorrect letter from first guess
+search array for best second guess
+create list of possible words based off of first guess answer
+sort list based on word type (common, uncommon, rare)
+sort list based on common letter rating
+output sorted list of suggested words
+loop steps 4 to 10 for second-sixth guesses
+
+Automatic Solver:
+Randomly pick word from wordle list
+input first guess
+output results
+input next guess based on word type and common letter rating
+repeat until solved
